@@ -34,7 +34,8 @@ function preload(){
 
 //cria os elementos
 function create(){
-    this.add.image(400,300,'mar').setDisplaySize(800, 600);;
+    this.add.image(400,300,'mar').setDisplaySize(800, 600);
+    //centralzia e ajusta a largura e a altura da iamgem
 
     this. add.image(400,525,'logo').setScale(0.5);
 
@@ -45,6 +46,7 @@ function create(){
 
     this. add.image(675,230,'Aquaman').setScale(0.5, 0.5);
 
+    // Adiciona um texto no topo da tela
     this.add.text(400, 100, 'Aventuras no Oceano!', { 
         fontSize: '32px', 
         color: '#008000', 
